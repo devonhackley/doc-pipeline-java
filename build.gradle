@@ -19,7 +19,7 @@ configurations {
 		extendsFrom developmentOnly
 	}
 }
-bootJar { archiveFileName = 'application.jar' }
+bootJar.archiveFileName = 'application.jar' 
 repositories {
 	mavenCentral()
 }
