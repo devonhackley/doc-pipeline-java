@@ -16,6 +16,6 @@ public class HelloWorldController {
 
     @GetMapping("/hello/{name}/{from}")
     public String getHelloToMe(@PathVariable String name, @PathVariable int from) {
-        return "Hello, " + name + " there fr" + (from * 25);
+        return "Hello, " + name + " there from" + (from * 25);
     }
 }
